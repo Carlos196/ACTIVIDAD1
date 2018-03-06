@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crear una cuenta</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilosformulario.css">
+
+
+</head>
+<body>
+
+
+	<h1 >ACCESO A LA BASE DE DATOS</h1>
+	<form action="insertarregistrado.php" method="post" class="formulario_de_registrado">
+		<h2 class="titulo_formululario_registrado">ACCEDER A LA CUENTA</h2>
+		<div class="los-inputs_registrados">
+			<input type="text" name="usuario" required placeholder="Usuario" class="input-45">
+			<input type="password" name="contrasena" required placeholder="Contraseña" class="input-45">
+			<input type="submit" value="Ingresar" class="boton-ingresar">
+	<a href="#" class="link">¿Has olvidado tu contraseña? </a>		
+		</div>
+	</form>
+
+	<h1 >Datos de registro</h1>
+	<form action="insertar.php" method="post" class="formulario_de_registro">
+		<h2 class="titulo_formulario">CREAR CUENTA</h2>
+		<div class="los-inputs">
+			<input type="number" name="id" required placeholder="Identificación" class="input-47">
+			<input type="text" name="nombre" required placeholder="Nombres" class="input-47">
+			<input type="text" name="apellidos" required placeholder="Apellidos" class="input-47">
+			<input type="email" name="correo" required placeholder="Correo" class="input-100">
+			<input type="text" name="usuario" required placeholder="Usuario" class="input-47">
+			<input type="password" name="contrasena" required placeholder="Contraseña" class="input-47">
+			<input type="text" name="telefono" placeholder="Telefono" class="input-100">
+			<input type="submit" value="Registrar" class="boton-registrar">
+	<p class="link">¿ya estas registrado?<a href="formularioparausuarioregistrado.php">Entra aquí</a></p>		
+		</div>
+	</form>
+
+</body>
+</html>
