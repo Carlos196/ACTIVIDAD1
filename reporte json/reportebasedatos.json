@@ -1,0 +1,33 @@
+[
+	usarios:{
+		Id=;
+		Nombres="";
+		Apelidos="";
+		Correo="";
+		Usuario="";
+		Contrasena="";
+		Telefono=;
+	},
+	trusu_cap_lib_vers:{
+		id=;
+		idusuarios=;
+		idcapitulos=;
+		idlibros=;
+		idversiculos=;
+	},
+	capitulos:{
+		Id=;
+		Nombre Del Capitulo="";
+		idlibro=;
+	},
+	libros:{
+		Id=;
+		Nombre Del Libro="";
+		
+	},
+	versiculos:{
+		Id=;
+		Versiculo="";
+		idcapitulo=;
+	}
+]
